@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char *ssid = "EU Guest";         // Change this to your WiFi name
-const char *password = "GuestAccess!"; // Change this to your WiFi password
+const char *ssid = "EU Guest";
+const char *password = "GuestAccess!";
 
 WebServer server(80);
 
